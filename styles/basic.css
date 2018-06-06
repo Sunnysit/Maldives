@@ -1,0 +1,69 @@
+
+body{
+    background-image: url("../images/bodybg01.png");
+}
+
+a{
+ 
+    text-decoration: none;
+    color: white;
+       
+}
+
+a:focus,a:active,a:hover,a:link,a:visited{
+    text-decoration:none;
+    color: white;
+}
+
+.logo{
+    width: 40px;
+    height: auto;
+    padding: 5px;
+}
+
+.nav-item{
+    border-bottom: 3px solid #343a40;
+}
+
+.active{
+    border-bottom: 3px solid #18c566;
+}
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 15px 30px;
+}
+.social-m-icon i{
+    font-size: 30px;
+    margin: 0 8px;
+}
+
+
+
+/* Geo page styles */
+.geo-container{
+    background-color: #fff;
+    padding: 3%;
+}
+
+#map{
+    height: 300px;
+    margin: 15px auto;
+}
+
+.article-img{
+    float: right;
+    padding: 15px;
+}
+
+@media (max-width: 768px) {
+
+    .article-img{
+        float: none;
+        width: 100%;
+    }
+
+}
