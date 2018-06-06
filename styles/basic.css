@@ -59,6 +59,16 @@ footer{
     padding: 15px;
 }
 
+
+
+/* Tour page styles */
+.tour-container{
+    background-color: #fff;
+    padding: 3%;
+}
+
+
+
 @media (max-width: 768px) {
 
     .article-img{
