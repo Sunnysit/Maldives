@@ -21,6 +21,10 @@ a:focus,a:active,a:hover,a:link,a:visited{
     padding: 5px;
 }
 
+.navbar-brand{
+    font-family: 'Cinzel', serif;
+}
+
 .nav-item{
     border-bottom: 3px solid #343a40;
 }
@@ -29,7 +33,9 @@ a:focus,a:active,a:hover,a:link,a:visited{
     border-bottom: 3px solid #18c566;
 }
 
-
+p{
+    line-height: 1.6rem;
+}
 
 footer{
     background-color: black;
@@ -67,7 +73,48 @@ footer{
     padding: 3%;
 }
 
+.tourist-count{
+    border: 2px solid black;
+    margin: 0 auto;
+    border:0;
+    border-spacing: 0;
+    border: 1px solid #b5f5d2;
+}
 
+.tourist-count thead{
+    background-color:#18c566;
+	color:#fff;
+}
+
+.tourist-count td{
+    
+    border: 1px solid #b5f5d2;
+	border-width:1px 0 1px 0;
+    padding: 10px;
+  
+}
+
+
+/* Future page styles */
+.fu-container{
+    background-color: #fff;
+    padding: 3%;
+}
+
+
+/* Credits page style */
+.credits-container{
+    background-color: #fff;
+    padding: 3%;
+    height: 90vh;
+}
+
+.credits-container a{
+    text-decoration: underline;
+    color: black;
+    display:  block;
+    line-height: 2rem;
+}
 
 @media (max-width: 768px) {
 
