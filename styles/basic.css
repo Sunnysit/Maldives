@@ -124,3 +124,18 @@ footer{
     }
 
 }
+
+@media (max-width: 320px) {
+
+    .banner-text h1{
+        font-size: 1.5rem;
+    }
+
+    .banner-text h2{
+        font-size: 2rem;
+    }
+
+    .subimg-text{
+        font-size: 36px;
+    }
+}
